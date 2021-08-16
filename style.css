@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   padding: 2%;
   margin-bottom: 4rem;
-  text-shadow: 0.5px 0px 25px #444141;
+  text-shadow: 0.5px 0px 15px #746f6f;
 }
 
 button {
@@ -29,4 +29,23 @@ button {
   display: flex;
 
   justify-content: space-around;
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  button {
+    margin: 10px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0.3rem 0.3rem 1rem black;
+
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
 }
