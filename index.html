@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Background Color Changer Button</h1>
+    <!-- way-1 : direct in element-->
+    <button onclick="document.body.style.backgroundColor='yellow'">
+      BG Yellow
+    </button>
+    <!-- way-2 : call fn-->
+    <button onclick="makeRed()">BG Red</button>
+    <!-- way-3 : give ID and select it then call him in the js fn -->
+    <button id="make-green">BG Green</button>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
