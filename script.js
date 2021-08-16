@@ -20,7 +20,7 @@ blueButton.onclick = function () {
   document.body.style.backgroundColor = "blue";
 };
 
-// way-5: addEventListener('click')
+// way-5: varName.addEventListener('click',call fn)
 const goldenButton = document.getElementById("make-golden");
 
 goldenButton.addEventListener("click", makeGolden);
@@ -28,3 +28,16 @@ goldenButton.addEventListener("click", makeGolden);
 function makeGolden() {
   document.body.style.backgroundColor = "gold";
 }
+
+// way-6: varName.addEventListener('click', full fn)
+const ghostWhiteButton = document.getElementById("make-ghostwhite");
+
+ghostWhiteButton.addEventListener("click", function () {
+  document.body.style.backgroundColor = "ghostwhite";
+});
+
+// way-7: direct action. call varName.addEventListener('click', full fn)
+
+document.getElementById("make-maroon").addEventListener("click", function () {
+  document.body.style.backgroundColor = "maroon";
+});

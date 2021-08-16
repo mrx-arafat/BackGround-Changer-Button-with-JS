@@ -9,19 +9,24 @@
   </head>
   <body>
     <h1>Background Color Changer Button</h1>
-    <!-- way-1 : direct in element-->
-    <button onclick="document.body.style.backgroundColor='yellow'">
-      BG Yellow
-    </button>
-    <!-- way-2 : call fn-->
-    <button onclick="makeRed()">BG Red</button>
-    <!-- way-3 : give ID and select it then call him in the js fn -->
-    <button id="make-green">BG Green</button>
-    <!-- way-4 : give ID and select it then call him in the js fn -->
-    <button id="make-blue">BG Blue</button>
-    <!-- way-5 : give ID and call in varName.addEventListener() -->
-    <button id="make-golden">BG Golden</button>
-
+    <section class="btn">
+      <!-- way-1 : direct in element-->
+      <button onclick="document.body.style.backgroundColor='yellow'">
+        BG Yellow
+      </button>
+      <!-- way-2 : call fn-->
+      <button onclick="makeRed()">BG Red</button>
+      <!-- way-3 : give ID and select it then call him in the js fn -->
+      <button id="make-green">BG Green</button>
+      <!-- way-4 : give ID and select it then call him in the js fn -->
+      <button id="make-blue">BG Blue</button>
+      <!-- way-5 : give ID and call in varName.addEventListener() -->
+      <button id="make-golden">BG Golden</button>
+      <!-- way-6 : give ID and call in varName.addEventListener() -->
+      <button id="make-ghostwhite">BG GhostWhite</button>
+      <!-- way-7 : give ID and call in varName.addEventListener(). here direct call -->
+      <button id="make-maroon">BG Maroon</button>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>

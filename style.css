@@ -5,11 +5,28 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 
   font-weight: 600;
   text-align: center;
   padding: 2%;
   margin-bottom: 4rem;
-  text-shadow: 0.5px 0.5px 25px #000000;
+  text-shadow: 0.5px 0px 25px #444141;
+}
+
+button {
+  margin: 0 5px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0.3rem 0.3rem 1rem black;
+
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+
+  justify-content: space-around;
 }
