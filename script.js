@@ -11,3 +11,20 @@ greenButton.onclick = makeGreen;
 function makeGreen() {
   document.body.style.backgroundColor = "green";
 }
+
+//way-4: same like before just direct call fn
+
+const blueButton = document.getElementById("make-blue");
+
+blueButton.onclick = function () {
+  document.body.style.backgroundColor = "blue";
+};
+
+// way-5: addEventListener('click')
+const goldenButton = document.getElementById("make-golden");
+
+goldenButton.addEventListener("click", makeGolden);
+
+function makeGolden() {
+  document.body.style.backgroundColor = "gold";
+}
