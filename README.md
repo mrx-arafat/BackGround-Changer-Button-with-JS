@@ -3,4 +3,4 @@
 - onclick
 - addEventListener
 
-7 way : details in code
+7 ways : details in code
